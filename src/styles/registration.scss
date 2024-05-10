@@ -1,0 +1,50 @@
+.registration-container {
+  .topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  .registration-box {
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 538px;
+    margin-top: 141px;
+    margin-left: 440px;
+    gap: 30px;
+    .heading {
+      font-size: 36px;
+      font-family: "Covered By Your Grace", cursive;
+      font-weight: 400;
+      font-style: normal;
+      color: #2da950;
+      word-spacing: -2%;
+    }
+    .sub-heading {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 56px;
+    }
+    .textfield-container{
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 417px;
+    margin-left: 80px;
+
+      .textfield{
+          border-radius: 64px;
+          height: 75px;
+      }
+    }
+    .submit-button{
+        background-color: black;
+        color: white;
+        height: 77px;
+        border-radius: 112px;
+        width: 100%;
+    }
+  }
+}

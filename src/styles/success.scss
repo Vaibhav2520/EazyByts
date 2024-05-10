@@ -1,0 +1,43 @@
+.success-container {
+  .image-container {
+    padding: 16px;
+    margin-right: 90rem;
+  }
+  .success-section {
+    width: 718px;
+    height: 357px;
+    gap: 41px;
+    margin-left: 360px;
+    margin-top: 90px;
+    .tick{
+        gap: 25px;
+    }
+    .heading {
+      font-size: 36px;
+      font-family: "Covered By Your Grace", cursive;
+      font-weight: 400;
+      font-style: normal;
+      color: #2da950;
+    }
+    .sub-heading{
+        font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 56px;
+    }
+    .content-section{
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 27px;
+        color: #727272;
+    }
+    .footer-success{
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 160px;
+    }
+  }
+}

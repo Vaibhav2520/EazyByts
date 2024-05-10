@@ -1,0 +1,270 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0.5px solid black;
+  border-radius: 64px;
+  margin: 20px;
+  .logo-container {
+    padding: 40px;
+  }
+  .buttons {
+    padding: 40px;
+    .get-projects-button {
+      color: black;
+      margin-right: 20px;
+      border: 0.5px solid black;
+      border-radius: 25px;
+      height: 45px;
+      width: 200px;
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      padding: 29px;
+    }
+    .oonboard-talent-button {
+      border-radius: 25px;
+      height: 45px;
+      width: 200px;
+      background-color: black;
+      color: white;
+      padding: 29px;
+    }
+  }
+}
+
+.main-container {
+  margin-top: 100px;
+  .heading {
+    font-size: 36px;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2da950;
+  }
+  .sub-heading {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 56px;
+  }
+  .middle-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    .image-section {
+      display: flex;
+      .card1 {
+        width: 290px;
+        height: 230px;
+        z-index: 2;
+        border-radius: 28px;
+        background-color: #002e18;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 400px;
+
+        .number-million {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          .number {
+            font-family: "Switzer", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            margin-right: 5px;
+            font-weight: 500;
+            font-size: 63px;
+            color: white;
+          }
+          .million {
+            color: #a6a3a0;
+            font-family: "Switzer", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            margin-top: 42px;
+          }
+        }
+        .card-content {
+          text-align: left;
+          margin-left: 32px;
+          color: #a6a3a0;
+        }
+      }
+      .card2 {
+        width: 245px;
+        height: 88px;
+        border-radius: 111px;
+        display: flex;
+        position: absolute;
+        z-index: 3;
+        /* top: 0; */
+        margin-top: 400px;
+        margin-left: -100px;
+      }
+      .card3 {
+        width: 267px;
+        height: 239px;
+        border-radius: 27px;
+        display: flex;
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 100px;
+        .sparkle {
+          position: absolute;
+          margin-left: -130px;
+          margin-top: -15px;
+        }
+
+        .percent40 {
+          font-family: "Switzer", sans-serif;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-size: 64px;
+          margin-right: 75px;
+          margin-top: 5px;
+        }
+        .card3-content {
+          font-family: "Manrope", sans-serif;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-size: 18px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .card2-content {
+    display: flex;
+    .days10 {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .staff-deployment {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-section {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+  }
+  .scroll {
+    margin-top: 30px;
+  }
+  .explore-more-button {
+    border-radius: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    padding: 29px;
+  }
+}
+
+.ask-question-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 22px;
+  width: 1200px;
+  border: 1px;
+  border-radius: 40px;
+  margin-top: 150px;
+  margin-left: 100px;
+  background-color: #e8eee7;
+  .content-class {
+    .content {
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 19px;
+    }
+    .what-mind-content {
+      font-family: "Covered By Your Grace", cursive;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+    }
+    .ask-question {
+      text-align: left;
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 40px;
+    }
+    .union {
+      margin-top: 100px;
+      margin-right: 350px;
+    }
+  }
+  .accordion {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: -159px;
+    .accordion-content {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0.5px;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 50px;
+  background-color: #f5f5f5;
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    .vector {
+      margin: 3px;
+      .footer-subcontent {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 18px;
+      }
+    }
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    .tc {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      margin-right: 20px;
+      font-size: 18px;
+      text-decoration: underline;
+    }
+    .pp {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 18px;
+      text-decoration: underline;
+    }
+  }
+}
